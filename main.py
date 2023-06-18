@@ -1,9 +1,12 @@
 import random
 import os
 import discord
+
 from discord.ext import commands
+
 from dotenv import load_dotenv
 
+ # ----Cargamos la token almacenada en un archivo 
 load_dotenv()
 
 intents = discord.Intents.all()
